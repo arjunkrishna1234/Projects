@@ -1,0 +1,184 @@
+.logo
+{
+  width:400px;
+  position:relative;
+  left:-20%;
+}
+
+
+.topnav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right:3%;
+
+  
+}
+body
+{
+  background-color:#FAF9F6;
+  margin:0;
+  border:0;
+}
+header,.form1
+{
+  padding-top:10px;
+  text-align:center;
+}
+
+header
+{
+  padding-top:40px;
+}
+#submit
+{
+  position:relative;
+  top:50px;
+  left:-160px;
+  background-color:#Fed8b1;
+  font-style:bold;
+  font-family:'Montserrat';
+}
+.form1
+{
+  padding-left:100px;
+}
+#email
+{
+  padding:6px;
+  width:250px
+}
+.icon1,.icon2,.icon3
+{
+  display:flex;
+  flex-direction:row;
+  justify-content:center;
+  align-items:center;
+ position:relative;
+ top:70px;
+}
+i{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  position:relative;
+  color:orange;
+ }
+ .fire
+ {
+   position:relative;
+   left:-80px;
+ }
+.battery
+{
+  position:relative;
+   left:-5px;
+}
+.l2
+{
+  position:relative;
+   left:55px; 
+}
+.youtube-video
+{display:flex;
+  flex-direction:row;
+  justify-content:center;
+ position:relative;
+ top:120px;
+ align-items:center;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+.columns {
+  float: left;
+  width: 20vw;
+  padding: 8px;
+  position:relative;
+  top:200px;
+  left:21%;
+  
+  
+}
+
+
+.price {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border:1px solid black;
+}
+
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+
+.price .header12 {
+  background-color: grey;
+  color: white;
+  font-size: 25px;
+}
+
+
+.price li {
+
+  padding: 20px;
+  text-align: center;
+}
+
+
+.price .grey {
+  
+  font-size: 20px;
+}
+
+
+.button12 {
+  background-color: orange;
+  border: none;
+  color: black;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns{
+    width: 100%;
+  }
+}
+.footer
+{
+  width:60%;
+  background-color:grey;
+  display:flex;
+  flex-direction:row;
+  position:relative;
+  top:250px;
+  left:21%;
+}
+.footer a
+{
+ 
+position:relative;
+padding-right:20px;
+padding-top:10px;
+padding-left:10px;
+color:white;
+}
+.footer p
+{position:relative;
+  left:-220px;
+  padding-top:30px;
+  color:white;
+}

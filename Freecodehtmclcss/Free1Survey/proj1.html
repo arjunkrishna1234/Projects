@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <script src="https://kit.fontawesome.com/da99f61192.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <script src="index1.js" async></script>
+ 
+  </head>
+  <body>
+    <div class="survey1">
+    <h1 id="title"> SURVEY FORM</h1>
+    <p id="description"> Please fill out this survey form</p>
+    <form id="survey-form">
+      <fieldset>
+        <div class="content-container">        
+<label for="name" id="name-label">Name : <input id="name" type="text" required placeholder="Name" onclick="validate(id)" name="name">
+</input><i class="fa-regular fa-circle-check fa-lg one" id="tick1"></i><i class="fa-sharp fa-regular fa-circle-xmark fa-lg" id="wrong1"></i>
+</label>
+<label for="email" id="email-label">Email :<input id="email" type="email" required placeholder="Email" onclick="validate(id)"  name="email">
+</input ><i class="fa-regular fa-circle-check fa-lg one" id="tick2"></i></i><i class="fa-sharp fa-regular fa-circle-xmark fa-lg" id="wrong2"></i>
+</label>
+<label for="number" id="number-label">Age(optional) :<input id="number" type="number" min="13" max="100" placeholder="Number" onclick="validate(id)"  name="age">
+</input ><i class="fa-regular fa-circle-check fa-lg one" id="tick3"></i></i><i class="fa-sharp fa-regular fa-circle-xmark fa-lg" id="wrong3"></i>
+</label>
+<label for="password" id="pass-label">Password: </label>
+</div>
+<div class="password-container">
+  <input type="password" placeholder="Password..." id="password" name="password" onclick="validate(id)" >
+  <i class="fa-regular fa-circle-check fa-lg" id="tick4"></i></i><i class="fa-sharp fa-regular fa-circle-xmark fa-lg" id="wrong4"></i>
+</div>
+
+</fieldset>
+<fieldset>
+  <label for="dropdown" id="drop"> Do you workout? </label>
+<select id="dropdown" class="dropd">
+  <option>(select one)</option>
+  <option selected="selected">yes</option>
+  <option>no</option>
+  </select>
+
+  <label class="rad">Do you workout frequently?</label>
+    <input type="radio" name="newold" class="radi" value="new" id="rad1"><label class="radlab" for="rad1">Yes</label></input>
+     <input type="radio" name="newold" class="radi" value="old" id="rad2"><label class="radlab"  for="rad2">No</label></input>
+      
+      </fieldset>
+
+      <fieldset>
+<label>Select your favourite drink :</label>
+<input type="checkbox" name="drink1"  class="chk"  value="coffee"><label class="chklab">coffee</label></input>
+<input type="checkbox" name="drink2" class="chk" value="tea"><label class="chklab">tea</label></input>
+<input type="checkbox" name="drink3" class="chk" value="cold"><label class="chklab">cold drinks</label></input>
+        </fieldset>
+        <fieldset>
+          <label>Any additional comments : </label>
+        <textarea placeholder="additional comments">
+          </textarea>
+          </fieldset>
+        <fieldset>
+          <button id="submit" type="submit">submit</button>
+          </fieldset>
+      </form>
+    </div>
+    </body>
+    </html>

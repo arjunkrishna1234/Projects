@@ -1,0 +1,13 @@
+.div1
+{
+    background-color:green;
+    width:100px;
+    height:100px;
+    display:flex;
+    flex-direction: row;
+    float:left;
+}
+.div2
+{
+    background-color:red;
+}

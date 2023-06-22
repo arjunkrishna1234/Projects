@@ -1,0 +1,67 @@
+body{
+    background-image: url('https://th.bing.com/th/id/R.1830e5815d863062fce30fe6cc0c8ab2?rik=V52bZk3wAGq6iA&riu=http%3a%2f%2fstatic.simpledesktops.com%2fuploads%2fdesktops%2f2012%2f10%2f14%2fSpace.png&ehk=1rWeDAB5pyWiZqwTcIWi4jZXpUpXmOA83z%2fN%2fQIUPE0%3d&risl=&pid=ImgRaw&r=0');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .container{
+    max-width: 400px;
+  
+  }
+  input[type=text],
+  input[type=text]:focus{
+    color: #fff;
+    border: none;
+    background: rgba(0,0,0,0.2);
+    max-width: 400px;
+  }
+  .todos li{
+    background: #415a5f;
+    
+  }
+
+  
+  .delete{
+    cursor: pointer;
+    display: flex !important;
+    justify-content: flex-end !important;
+    align-items: flex-end !important;
+    position: absolute;
+    left:80%
+  }
+  .inp
+  {
+    width:75%;
+    margin:0;
+    margin-right: none;
+  }
+  .bu1
+  {
+    position: absolute;
+    left:80%;
+    bottom:-11%;
+  }
+  .add
+  {
+    position: relative;
+  }
+
+  .dis
+  {
+    display: none;
+  }
+  .filtered{
+    display: none !important;
+  }
+  /* .checks
+  {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  bottom:50%;
+  margin-left:80%;
+  margin-top: -6%;
+  max-width: 15%;
+  left:70%;
+margin-bottom: 10%;
+  } */
+

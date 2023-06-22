@@ -1,0 +1,14 @@
+
+.quiz
+{ background-image: url('https://cdn.technadu.com/wp-content/uploads/2020/10/UEFA-Champions-League.jpg');
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.result,.intro
+{
+    background-color: #10135b;
+}
+.result h2
+{
+    transition: 1s ease-in-out;
+}

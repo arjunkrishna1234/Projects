@@ -1,0 +1,61 @@
+html
+{
+  padding-top:30px;
+  background-color:white;
+}
+body
+{
+  border-radius:10px;
+  background-color:#eeeeee;
+  font-family:'Montserrat' ,sans-serif;
+}
+#fieldset1
+{
+  text-align:center;
+  border:none;
+
+}
+img
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+}
+#img-div
+{
+ background-color:white; 
+ margin:20px;
+}
+#img-caption
+{
+  text-align:center;
+  padding:30px;
+}
+#fieldset2
+{
+border:none;
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 30%;
+
+}
+#list
+{
+  padding:10px;
+}
+#tribute
+{
+  text-align:center;
+  padding:30px;
+  padding-bottom:50px;
+}
+.intro
+{
+  text-align:center;
+}
+#image
+{
+  max-width:100%;
+}

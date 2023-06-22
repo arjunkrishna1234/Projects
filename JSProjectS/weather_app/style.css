@@ -1,0 +1,71 @@
+:root
+{
+  font-family: 'Bebas Neue', sans-serif;
+}
+body{
+    background: #eeedec;
+    letter-spacing: 0.2em;
+    font-size: 0.8em;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .container{
+    max-width: 400px;
+    margin:0 auto;
+    margin-top: 5%;
+    text-align: center;
+    background-color: #eeedec;
+    border-radius: 10px;
+    font-size: large;
+  }
+  #lab 
+  {
+    font-size:15px;
+    padding-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+  .container h1{
+    text-align: center;
+    color: #025464;
+    padding-top: 20px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: 400;
+  }
+
+  .card
+  {
+    border:10px;
+    
+  }
+  .none
+  {
+    display:none;
+  }
+.time
+{
+  width:100%;
+}
+.icon
+{
+  position: absolute;
+  left:47%;
+  top:63%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+}
+.form-control
+{
+  margin-top: 20px;
+  width:70%;
+  height:30px;
+}
+.details
+{margin-top: 30px;
+  height:15vh;}
+
+.details h3{
+padding-top: 50px;
+}
